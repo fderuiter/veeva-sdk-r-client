@@ -3,7 +3,7 @@
 
 context("Test DefaultApi")
 
-api_instance <- DefaultApi$new()
+api_instance <- openapi::DefaultApi$new()
 
 test_that("ApiGet", {
   # tests for ApiGet

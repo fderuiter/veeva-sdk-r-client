@@ -3,7 +3,7 @@
 
 context("Test VobjectsObjectNameActionsMergePostRequestInner")
 
-model_instance <- VobjectsObjectNameActionsMergePostRequestInner$new()
+model_instance <- openapi::VobjectsObjectNameActionsMergePostRequestInner$new()
 
 test_that("duplicate_record_id", {
   # tests for the property `duplicate_record_id` (character)
